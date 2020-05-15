@@ -1,0 +1,50 @@
+{% extends 'baseAdmin1.html.twig' %}
+{% block body %}
+    <link href="{{ asset('Back/font/font/') }}css/all.css" rel="stylesheet">
+    {#<div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+            <h3 class="page-title">{{infos.titre}}</h3>
+        </div>
+    </div>
+    <div class="row">
+    <div class="">
+        <div class="card card-small card-post card-post--aside card-post--1">
+            <div class="card-post__image" style="background-image: url('{{ asset('Back/images/' ~ infos.image)}}');width: 800px;height: 700px;">
+                <a href="#" style="margin-left: 200px;width: 90px;height: 30px;" class="card-post__category badge badge-pill badge-info">{{ infos.categorie.titre }}</a>
+                <div class="card-post__author d-flex">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a class="text-fiord-blue" href="#">{{infos.titre}}</a>
+                </h5>
+                <p class="card-text d-inline-block mb-3">{{infos.description|raw }}</p>
+                <span class="text-muted">{{infos.dateAjout|date}}</span>
+            </div>
+        </div>
+    </div>
+    </div>#}
+    <div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+            <h3 class="page-title">{{infos.titre}}</h3>
+        </div>
+    </div>
+        <div >
+            <div class="card card-small card-post card-post--aside card-post--1">
+                <div class="card-post__image" style="background-image: url('{{ asset('Back/images/' ~ infos.image)}}');width: 1200px;height: 700px;">
+                    <a href="#" class="card-post__category badge badge-pill badge-info">{{ infos.categorie.titre }}</a>
+                    <div class="card-post__author d-flex">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a class="text-fiord-blue" href="#">{{infos.titre}}</a>
+                    </h5>
+                    <p class="card-text d-inline-block mb-3">{{infos.description|raw }}</p>
+                    <span class="text-muted">{{infos.dateAjout|date}}</span>
+                </div>
+            </div>
+        </div>
+{% endblock %}

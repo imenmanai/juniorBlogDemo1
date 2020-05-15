@@ -1,0 +1,191 @@
+{% extends 'baseAdmin1.html.twig' %}
+{% block body %}
+    <link href="{{ asset('Back/font/font/') }}css/all.css" rel="stylesheet">
+    <div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+            <h3 class="page-title">Articles du blog</h3>
+        </div>
+    </div>
+
+    <div class="row">
+    {% for infos in infos %}
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="card card-small card-post card-post--1">
+                <div class="card-post__image" style="background-image: url('{{ asset('Back/images/' ~ infos.image)}}');">
+                    <a href="#" class="card-post__category badge badge-pill badge-dark">{{ infos.categorie.titre }}</a>
+                    <div class="card-post__author d-flex">
+                        <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('{{ asset("Back/") }}images/avatars/0.jpg');">Written by Anna Kunis</a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a class="text-fiord-blue" href="#">{{infos.titre}}</a>
+                    </h5>
+                    <p class="card-text d-inline-block mb-3">{{ infos.description|truncate(100, true, "...")|raw }}<a style="margin-left: 150px;margin-top: 20px;" href="{{ path('detailArticle',{'id': infos.id})}}"  class="mb-2 btn btn-sm btn-outline-primary mr-1">Lire plus</a>
+                    </p>
+
+                    <span class="text-muted">{{ infos.dateAjout|date }}</span>
+                      <a style="margin-left: 120px;" id="{{ infos.id }}" class="fas fa-trash-alt" href="{{ path('suppArticle',{'id': infos.id})}}" >
+                          <a style="margin-left: 20px;" href="{{ path('modifierArticle',{'id': infos.id})}}" class="fas fa-user-edit" ></a>
+
+                      </a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    <script>
+        /*   $('#modifier').click(function(){
+               var id = $('.imen').attr("id");
+               alert(id);
+           });*/
+        $(document).on('click','.modifier',function () {
+
+            var id = $('.modifier').attr("id");
+            alert(id);
+            /*  $.ajax({
+                  url : "",
+                  method : 'post',
+                  data :{id : id},
+                  success : function (response) {
+                      console.log(response);
+
+                  }
+
+              });*/})
+
+    </script>
+
+   {# <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">La liste des article</h3>
+        </div>
+
+
+        <!-- /.card-header -->
+        <div class="card-body">
+            <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Image</th>
+                    <th>Date d'ajout</th>
+                    <th>Action</th>
+
+                </tr>
+                </thead>
+                <tbody>
+               {% for infos in infos %}
+                <tr>
+                    <td>{{infos.titre  }}</td>
+                    <td><img src="{{ asset('images/' ~ infos.image)}} " style="width: 50px;"></td>
+
+                    <td>{{ infos.dateAjout|date }}</td>
+                    <td id="{{ infos.id }}" class="imen">   <a href="{{ path('suppArticle',{'id': infos.id})}}"  >Supprimer</a>
+
+                        <a href="{{ path('modifierArticle',{'id': infos.id})}}"  >Modifier</a>
+                        <a href="{{ path('detailArticle',{'id': infos.id})}}"  >detail</a>
+
+                    </td>
+
+
+                </tr>
+
+
+                {% endfor %}
+
+
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th>Titre</th>
+                    <th>Date d'ajout</th>
+                    <th>Action</th>
+
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <script>
+            /*   $('#modifier').click(function(){
+                   var id = $('.imen').attr("id");
+                   alert(id);
+               });*/
+            $(document).on('click','.modifier',function () {
+
+                var id = $('.modifier').attr("id");
+                alert(id);
+                /*  $.ajax({
+                      url : "",
+                      method : 'post',
+                      data :{id : id},
+                      success : function (response) {
+                          console.log(response);
+
+                      }
+
+                  });*/})
+
+        </script>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+    </div>
+    <!-- /.col -->
+    </div>
+    <!-- /.row -->
+    </section>
+    <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="{{ asset('') }}plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="{{ asset('') }}plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTables -->
+    <script src="{{ asset('') }}plugins/datatables/jquery.dataTables.js"></script>
+    <script src="{{ asset('') }}plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+    <!-- AdminLTE App -->
+    <script src="{{ asset('') }}dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="{{ asset('') }}dist/js/demo.js"></script>
+    <!-- page script -->
+
+
+
+
+
+
+    <script>
+/*
+        $('#ajout').click(function () {
+var titre=$('#titre').val();
+$.ajax({
+    url : "",
+    method : 'post',
+    data :{titre : titre},
+    success : function (response) {
+        console.log(response);
+
+    }
+
+
+});
+        }) ;*/
+    </script>
+#}
+
+
+
+{% endblock %}

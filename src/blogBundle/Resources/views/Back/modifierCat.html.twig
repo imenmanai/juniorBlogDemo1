@@ -1,0 +1,19 @@
+{% extends 'baseAdmin1.html.twig' %}
+{% block body %}
+    <div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+            <h3 class="page-title">Modifier un article</h3>
+        </div>
+    </div>
+
+    {{ form_start(f,{'attr':{'novalidate':'novalidate'}})}}
+
+    <div class="form-group">
+        {{ form_row(f.titre,{'attr':{'class':'form-control'}}) }}
+
+        </div>
+    <button type="submit" class="btn btn-block btn-outline-success btn-lg">Ajouter</button>
+    {{ form_end(f) }}
+{% endblock %}
+

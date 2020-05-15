@@ -1,0 +1,36 @@
+blog_homepage:
+    path:     /
+    defaults: { _controller: blogBundle:Default:index }
+imen:
+    path:     /imen
+    defaults: { _controller: blogBundle:Default:index1 }
+ajoutCat:
+    path:     /ajoutCat
+    defaults: { _controller: blogBundle:Default:ajoutCategorie }
+afficherCat:
+    path:     /afficherCat
+    defaults: { _controller: blogBundle:Default:afficherCat }
+modifierCat:
+    path:     /modifierCat/{id}
+    defaults: { _controller: blogBundle:Default:modifierCat }
+suppCat:
+    path:     /suppCat/{id}
+    defaults: { _controller: blogBundle:Default:suppCat }
+front:
+    path:     /front
+    defaults: { _controller: blogBundle:front:front }
+ajoutArticle:
+    path:     /ajoutArticle
+    defaults: { _controller: blogBundle:Default:ajoutArticle }
+detailArticle:
+    path:     /detailArticle/{id}
+    defaults: { _controller: blogBundle:Default:detailArticle }
+modifierArticle:
+    path:     /modifierArticle/{id}
+    defaults: { _controller: blogBundle:Default:modifierArticle }
+suppArticle:
+    path:     /suppArticle/{id}
+    defaults: { _controller: blogBundle:Default:suppArticle }
+afficherArticle:
+    path:     /afficherArticle
+    defaults: { _controller: blogBundle:Default:afficherArticle }
