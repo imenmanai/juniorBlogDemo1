@@ -34,3 +34,12 @@ suppArticle:
 afficherArticle:
     path:     /afficherArticle
     defaults: { _controller: blogBundle:Default:afficherArticle }
+detailCat:
+    path:     /detailCat/{id}
+    defaults: { _controller: blogBundle:Default:detailCat }
+afficherPost:
+    path:     /afficherPost/{id}
+    defaults: { _controller: blogBundle:front:afficherPosts }
+afficherPostDetail:
+    path:     /afficherPostDetail/{id}
+    defaults: { _controller: blogBundle:front:afficherPostDetail }

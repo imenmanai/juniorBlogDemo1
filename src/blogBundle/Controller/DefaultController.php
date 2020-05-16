@@ -6,9 +6,11 @@ use blogBundle\Entity\Article;
 use blogBundle\Entity\Categorie;
 use blogBundle\Form\ArticleType;
 use blogBundle\Form\CategorieType;
+use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpKernel\Tests\DependencyInjection\ArgumentWithoutTypeController;
 
 class DefaultController extends Controller
 {
@@ -26,7 +28,17 @@ public function ajoutCategorieAction(Request $request)
     $form=$this->createForm(CategorieType::class,$cat);
     $form->handleRequest($request);
     if($form->isValid())
-    { $date=new \DateTime('now');
+    {       /** @var UploadedFile $file */
+        $file = $cat->getImages();
+        $filename = $this->generateUniqueFileName().'.'.$file->guessExtension();
+        //  $file->move($this->getParameter('photos_directory'), $filename);
+        $img=$file->getClientOriginalName();
+        $directory = $this->container->getParameter('kernel.root_dir') . '/../web/Back/images';
+        $file->move($directory, $img);
+
+        $cat->setImages($img);
+
+        $date=new \DateTime('now');
         $liste=$this->getDoctrine()->getRepository(Categorie::class)->findAll();
 
         $em=$this->getDoctrine()->getManager();
@@ -41,10 +53,9 @@ public function ajoutCategorieAction(Request $request)
 
 public function afficherCatAction(Request $request)
 {
-
     $liste=$this->getDoctrine()->getRepository(Categorie::class)->findAll();
 
-
+    //var_dump($pagination);
         return $this->render('@blog/back/afficherCat.html.twig',array('infos'=>$liste));
 
 
@@ -57,7 +68,17 @@ $cat=$this->getDoctrine()->getRepository(Categorie::class)->find($id);
     $form=$this->createForm(CategorieType::class,$cat);
     $form->handleRequest($request);
     if($form->isValid())
-    { $date=new \DateTime('now');
+    {       /** @var UploadedFile $file */
+        $file = $cat->getImages();
+        $filename = $this->generateUniqueFileName().'.'.$file->guessExtension();
+        //  $file->move($this->getParameter('photos_directory'), $filename);
+        $img=$file->getClientOriginalName();
+        $directory = $this->container->getParameter('kernel.root_dir') . '/../web/Back/images';
+        $file->move($directory, $img);
+
+        $cat->setImages($img);
+
+        $date=new \DateTime('now');
 
         $em=$this->getDoctrine()->getManager();
         $cat->setDateAjout($date);
@@ -117,12 +138,24 @@ public function suppCatAction($id)
 
     public function afficherArticleAction(Request $request)
 {
+    $em = $this->getDoctrine()->getManager();
 
-    $liste=$this->getDoctrine()->getRepository(Article::class)-> findAll();
+   // $liste=$this->getDoctrine()->getRepository(Article::class)-> findAll();
+    $dql   = "SELECT a FROM blogBundle:Article a";
+    $query = $em->createQuery($dql);
+    $paginator = $this->get('knp_paginator');
+
+    $pagination = $paginator->paginate(
+        $query, /* query NOT result */
+        $request->query->getInt('page', 1), /*page number*/
+       8 /*limit per page*/
+    );
+
+    // parameters to template
    // var_dump($liste);
 //$nomcat=$this->getDoctrine()->getRepository(Categorie ::class)->findAll();
 
-    return $this->render('@blog/back/afficherArticle.html.twig',array('infos'=>$liste));
+    return $this->render('@blog/back/afficherArticle.html.twig',array('infos'=>$pagination));
 
 
 }
@@ -133,6 +166,18 @@ public function suppCatAction($id)
 
 
         return $this->render('@blog/back/detailArticle.html.twig',array('infos'=>$liste));
+
+
+    }
+    public function detailCatAction(Request $request,$id)    {
+
+        $liste=$this->getDoctrine()->getRepository(Categorie::class)->find($id);
+$listeArticle=$tasks = $this->getDoctrine()->getManager()
+    ->getRepository(Article::class)
+    ->findBy(['categorie' => $id]);
+
+
+        return $this->render('@blog/back/detailCat.html.twig',array('infos'=>$liste,'info'=>$listeArticle));
 
 
     }

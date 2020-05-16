@@ -1,6 +1,144 @@
 {% extends 'base.html.twig' %}
-
+{% block cat %}
+{% for infos in infos %}
+    <li id="menu-item-818" class=" menu-item menu-item-type-taxonomy menu-item-object-category"><a href="{{ path('afficherPost',{'id': infos.id})}}">{{infos.titre}}</a></li>
+{% endfor %}
+{% endblock %}
 {% block body %}
 
+    <div class="container"><div class="homepage-welcome-block"><div class="row"><div class="homepage-welcome-block-content clearfix"><div class="homepage-welcome-block-bjorn">
+
+        <!-- CENTER BLOCK -->
+        <div class="col-md-6">
+            <div class="homepage-welcome-block-content-center background-grey">
+                <div class="homepage-welcome-block-content-text">
+
+                    <img class="pull-right" src="{{asset("front1/")}}bjorn-1/wp-content/uploads/2017/09/welcome-block-middle.jpg" alt="welcome-center-image" />
+                    <h5>ABOUT ME</h5>
+                    <h3>Hi to everyone.<br class="welcome-block-br" /> My name is Jessica!</h3>
+                    <p class="text-color-grey">I'am the author of Bjorn. Bjorn is a daily updated blog about travel, inspirations, photographers, food  and everyday moments from all over the world.</p>
+                    <a class="btn btn-bordered" href="http://wp.magnium-themes.com/bjorn/bjorn-1/about/">Read more</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- END CENTER BLOCK -->
+
+        <!-- LEFT BLOCK -->
+        <div class="col-md-3">
+            <div class="homepage-welcome-block-content-left background-theme">
+
+                <a href="#"><img src="{{asset("front1/")}}bjorn-1/wp-content/uploads/2017/09/about-welcome-block-1.jpg" alt="welcome-left-image" /></a>
+                <div class="homepage-welcome-block-content-text">
+                    <h3>Travel category</h3>
+                    The concept of travel is shaped by things with meaning.
+                </div>
+            </div>
+        </div>
+        <!-- END LEFT BLOCK -->
+
+        <!-- RIGHT BLOCK -->
+        <div class="col-md-3">
+            <div class="homepage-welcome-block-content-right background-theme">
+                <div class="homepage-welcome-block-content-text text-center">
+                    <h5>INSPIRATION</h5>
+                    <h3>Inspiration
+                        category</h3>
+                    <p class="welcome-p">Coming from two<br class="welcome-block-br" /> different cultures has<br class="welcome-block-br" /> been instrumental in<br class="welcome-block-br" /> how we’ve approached.</p>
+                    <a class="btn btn-bordered-white" href="http://wp.magnium-themes.com/bjorn/bjorn-1/category/inspiration/">Read more</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- RIGHT BLOCK END -->
+
+    </div>
+
+    <!-- // Image block -->
+    <!-- // Featured categories blocks -->
+    <!-- About text -->
+    <div class="col-md-12 col-sm-12 text-center">
+        <div class="bjorn-theme-block margin-top-large">
+            <h2>Welcome to the Bjorn</h2>
+            <p class="font-size-large">We love every new day! A new day gives us travel and pleasant acquaintances. We are open to new ideas and new incredible events. No matter what!</p>
+            <a class="btn alt" href="about/index.html">Read more</a>
+
+        </div>
+    </div>
+    <div class="bjorn-popular-post-list-wrapper clearfix container bjorn-theme-block"><h4 class="lined">Most popular posts</h4><h2 class="lined">Top posts</h2>
+        <div class="row clearfix"><div class="col-md-12"><div class="bjorn-popular-post-list-nav"><div class="bjorn-popular-post-list-nav-next"></div>
+                    <div class="bjorn-popular-post-list-nav-prev"></div></div><div class="bjorn-popular-post-list-content">
+                    <div class="bjorn-popular-post-list-content-inner"><div id="bjorn-popular-post-list" class="bjorn-popular-post-list owl-carousel">
+                            <div class="bjorn-popular-post"><a href="two-inspired-stories-about-morning/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="two-inspired-stories-about-morning/index.html"><h5>Two inspired stories about Morning</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="possible-architecture/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="possible-architecture/index.html"><h5>Possible Architecture in Old town Prague</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="a-weekend-in-london-with-friends/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wall.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="a-weekend-in-london-with-friends/index.html"><h5>A Weekend in London with my Best Friends</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="how-to-care-for-spring-plants/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/beauty/index.html" rel="category tag">Beauty</a>, <a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="how-to-care-for-spring-plants/index.html"><h5>How to care about lovely spring plants?</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="home-tour-antwerp-historic/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="home-tour-antwerp-historic/index.html"><h5>Beauty Treatments Worth Traveling For</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 11, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="how-to-change-your-life-with-travel/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountain.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="how-to-change-your-life-with-travel/index.html"><h5>How to change your life with Travel</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="typography-post/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="typography-post/index.html"><h5>Typography Post</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="interview-with-paris-girl-on-montmartre/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grass.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="interview-with-paris-girl-on-montmartre/index.html"><h5>Interview with Paris Girl on Montmartre</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="rose-by-carte-noir/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/aerinphoto-4.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/beauty/index.html" rel="category tag">Beauty</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="rose-by-carte-noir/index.html"><h5>Rose by Carte Noir</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div><div class="bjorn-popular-post"><a href="just-a-simple-quote-post/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
+                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                    <div class="bjorn-popular-post-title"><a href="just-a-simple-quote-post/index.html"><h5>Just a simple Quote Post</h5></a></div>
+                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
+                                </div></div></div></div></div></div></div></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bjorn-editorspick-post-list-wrapper bjorn-theme-block clearfix"><h4>Best posts from Bjorn</h4><h2 class="lined">Editor&#039;s Picks</h2><div id="bjorn-editorspick-post-list" class="bjorn-editorspick-post-list"><div class="row bjorn-editorspick-post-row"><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="home-tour-antwerp-historic/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+
+                                        <div class="bjorn-editorspick-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
+                                        <div class="bjorn-editorspick-post-title"><a href="home-tour-antwerp-historic/index.html"><h2>Beauty Treatments Worth Traveling For</h2></a></div>
+                                        <div class="bjorn-editorspick-post-date">May 11, 2016</div>
+
+                                    </div></div></div><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="possible-architecture/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+
+                                        <div class="bjorn-editorspick-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
+                                        <div class="bjorn-editorspick-post-title"><a href="possible-architecture/index.html"><h2>Possible Architecture in Old town Prague</h2></a></div>
+                                        <div class="bjorn-editorspick-post-date">May 10, 2016</div>
+
+                                    </div></div></div></div><div class="row bjorn-editorspick-post-row"><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="how-to-care-for-spring-plants/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+
+                                        <div class="bjorn-editorspick-post-category"><a href="category/beauty/index.html" rel="category tag">Beauty</a>, <a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                        <div class="bjorn-editorspick-post-title"><a href="how-to-care-for-spring-plants/index.html"><h2>How to care about lovely spring plants?</h2></a></div>
+                                        <div class="bjorn-editorspick-post-date">May 10, 2016</div>
+
+                                    </div></div></div><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="two-inspired-stories-about-morning/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+
+                                        <div class="bjorn-editorspick-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
+                                        <div class="bjorn-editorspick-post-title"><a href="two-inspired-stories-about-morning/index.html"><h2>Two inspired stories about Morning</h2></a></div>
+                                        <div class="bjorn-editorspick-post-date">May 10, 2016</div>
+
+                                    </div></div></div></div></div></div>			</div>
+        </div>
+    </div>
 
 {% endblock %}

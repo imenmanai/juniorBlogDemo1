@@ -15,5 +15,12 @@ class articleRepository  extends \Doctrine\ORM\EntityRepository
         return $queri=$query->getResult();
 
     }
+public function aff($id)
+{
+    $query=$this->getEntityManager()
+        ->createQuery('select c from blogBundle:Article c where c.categorie=:tit')
+        ->setParameters(array('tit'=>$id));
+    return $queri=$query->getResult();
 
+}
 }

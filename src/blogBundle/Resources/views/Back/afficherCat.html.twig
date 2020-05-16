@@ -1,5 +1,71 @@
 {% extends 'baseAdmin1.html.twig' %}
 {% block body %}
+
+
+    <link href="{{ asset('Back/font/font/') }}css/all.css" rel="stylesheet">
+    <div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+
+            <h3 class="page-title">Liste des catégorie</h3>
+        </div>
+    </div>
+    <a href="{{ path('ajoutCat') }}"  style="margin-bottom: 20px" class="btn btn-info"><i class="fa fa-plus-circle"></i> Catégorie</a>
+
+    <div class="row">
+
+        {% for infos in infos %}
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-small card-post card-post--1">
+                    <div class="card-post__image" style="background-image: url('{{ asset('Back/images/' ~ infos.images)}}');">
+                        <a href="#" class="card-post__category badge badge-pill badge-dark">{{ infos.titre }}</a>
+                        <div class="card-post__author d-flex">
+                            <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('{{ asset("Back/") }}images/avatars/0.jpg');">Written by Anna Kunis</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="text-fiord-blue" href="#">{{infos.titre}}</a>
+                        </h5>
+                        <p class="card-text d-inline-block mb-3"><a style="margin-left: 230px;margin-top: 20px;" href="{{ path('detailCat',{'id': infos.id})}}"  class="mb-2 btn btn-sm btn-outline-primary mr-1">Detail</a>
+                        </p>
+
+                        <span class="text-muted">{{ infos.dateAjout|date }}</span>
+                        <a style="margin-left: 120px;" id="{{ infos.id }}" class="fas fa-trash-alt" href="{{ path('suppCat',{'id': infos.id})}}" >
+                            <a style="margin-left: 20px;" href="{{ path('modifierCat',{'id': infos.id})}}" class="fas fa-user-edit" ></a>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        {% endfor %}
+    </div>
+    <script>
+        /*   $('#modifier').click(function(){
+               var id = $('.imen').attr("id");
+               alert(id);
+           });*/
+        $(document).on('click','.modifier',function () {
+
+            var id = $('.modifier').attr("id");
+            alert(id);
+            /*  $.ajax({
+                  url : "",
+                  method : 'post',
+                  data :{id : id},
+                  success : function (response) {
+                      console.log(response);
+
+                  }
+
+              });*/})
+
+    </script>
+
+
+
+    {#
     <link href="{{ asset('Back/font/font/') }}css/all.css" rel="stylesheet">
     <div class="page-header row no-gutters py-4">
         <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
@@ -42,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> #}
 {#
 
     <div class="card">

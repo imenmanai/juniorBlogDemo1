@@ -20,11 +20,51 @@ private $id;
      * @ORM\Column(type="string",length=255)
      */
 private $titre;
-
+    /**
+     * @ORM\Column(type="string",length=4000)
+     *
+     */
+    private $description;
+    /**
+     * @ORM\Column(type="string",length=255)
+     */
+    private $images;
     /**
      * @ORM\Column(type="datetime")
      */
 private $dateAjout;
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImages()
+    {
+        return $this->images;
+    }
+
+    /**
+     * @param mixed $images
+     */
+    public function setImages($images)
+    {
+        $this->images = $images;
+    }
 
     /**
      * @return mixed

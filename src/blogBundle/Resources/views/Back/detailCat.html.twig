@@ -1,0 +1,113 @@
+{% extends 'baseAdmin1.html.twig' %}
+{% block body %}
+    <link href="{{ asset('Back/font/font/') }}css/all.css" rel="stylesheet">
+    {#<div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+            <h3 class="page-title">{{infos.titre}}</h3>
+        </div>
+    </div>
+    <div class="row">
+    <div class="">
+        <div class="card card-small card-post card-post--aside card-post--1">
+            <div class="card-post__image" style="background-image: url('{{ asset('Back/images/' ~ infos.image)}}');width: 800px;height: 700px;">
+                <a href="#" style="margin-left: 200px;width: 90px;height: 30px;" class="card-post__category badge badge-pill badge-info">{{ infos.categorie.titre }}</a>
+                <div class="card-post__author d-flex">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a class="text-fiord-blue" href="#">{{infos.titre}}</a>
+                </h5>
+                <p class="card-text d-inline-block mb-3">{{infos.description|raw }}</p>
+                <span class="text-muted">{{infos.dateAjout|date}}</span>
+            </div>
+        </div>
+    </div>
+    </div>#}
+    <div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+            <h3 class="page-title">{{infos.titre}}</h3>
+        </div>
+    </div>
+        <div >
+            <div class="card card-small card-post card-post--aside card-post--1">
+                <div class="card-post__image" style="background-image: url('{{ asset('Back/images/' ~ infos.images)}}');width:600px;height: 400px;">
+                    <a href="#" class="card-post__category badge badge-pill badge-info">{{ infos.titre }}</a>
+                    <div class="card-post__author d-flex">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a class="text-fiord-blue" href="#">{{infos.titre}}</a>
+                    </h5>
+                    <p class="card-text d-inline-block mb-3">{{infos.description|raw }}</p>
+                    <span class="text-muted">{{infos.dateAjout|date}}</span>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <span class="text-uppercase page-subtitle">Dashboard</span>
+            <h3 class="page-title">Article</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        {% for info in info %}
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-small card-post card-post--1">
+                    <div class="card-post__image" style="background-image: url('{{ asset('Back/images/' ~ info.image)}}');">
+                        <a href="#" class="card-post__category badge badge-pill badge-dark">{{ info.categorie.titre }}</a>
+                        <div class="card-post__author d-flex">
+                            <a href="#" class="card-post__author-avatar card-post__author-avatar--small" style="background-image: url('{{ asset("Back/") }}images/avatars/0.jpg');">Written by Anna Kunis</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="text-fiord-blue" href="#">{{info.titre}}</a>
+                        </h5>
+                        <p class="card-text d-inline-block mb-3">{{ info.description|truncate(100, true, "...")|raw }}<a style="margin-left: 150px;margin-top: 20px;" href="{{ path('detailArticle',{'id': info.id})}}"  class="mb-2 btn btn-sm btn-outline-primary mr-1">Lire plus</a>
+                        </p>
+
+                        <span class="text-muted">{{ info.dateAjout|date }}</span>
+                        <a style="margin-left: 120px;" id="{{ info.id }}" class="fas fa-trash-alt" href="{{ path('suppArticle',{'id': info.id})}}" >
+                            <a style="margin-left: 20px;" href="{{ path('modifierArticle',{'id': info.id})}}" class="fas fa-user-edit" ></a>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+    <script>
+        /*   $('#modifier').click(function(){
+               var id = $('.imen').attr("id");
+               alert(id);
+           });*/
+        $(document).on('click','.modifier',function () {
+
+            var id = $('.modifier').attr("id");
+            alert(id);
+            /*  $.ajax({
+                  url : "",
+                  method : 'post',
+                  data :{id : id},
+                  success : function (response) {
+                      console.log(response);
+
+                  }
+
+              });*/})
+
+    </script>
+
+
+
+
+
+{% endblock %}
