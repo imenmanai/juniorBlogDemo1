@@ -1,144 +1,409 @@
 {% extends 'base.html.twig' %}
 {% block cat %}
 {% for infos in infos %}
-    <li id="menu-item-818" class=" menu-item menu-item-type-taxonomy menu-item-object-category"><a href="{{ path('afficherPost',{'id': infos.id})}}">{{infos.titre}}</a></li>
+    <li><a href="{{ path('afficherPost',{'id': infos.id})}}">{{infos.titre}}</a></li>
 {% endfor %}
 {% endblock %}
 {% block body %}
 
-    <div class="container"><div class="homepage-welcome-block"><div class="row"><div class="homepage-welcome-block-content clearfix"><div class="homepage-welcome-block-bjorn">
+    <div class="masonry" style="position: relative; height: 5755.48px;">
 
-        <!-- CENTER BLOCK -->
-        <div class="col-md-6">
-            <div class="homepage-welcome-block-content-center background-grey">
-                <div class="homepage-welcome-block-content-text">
+        <div class="grid-sizer"></div>
 
-                    <img class="pull-right" src="{{asset("front1/")}}bjorn-1/wp-content/uploads/2017/09/welcome-block-middle.jpg" alt="welcome-center-image" />
-                    <h5>ABOUT ME</h5>
-                    <h3>Hi to everyone.<br class="welcome-block-br" /> My name is Jessica!</h3>
-                    <p class="text-color-grey">I'am the author of Bjorn. Bjorn is a daily updated blog about travel, inspirations, photographers, food  and everyday moments from all over the world.</p>
-                    <a class="btn btn-bordered" href="http://wp.magnium-themes.com/bjorn/bjorn-1/about/">Read more</a>
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 0%; top: 0px;">
+
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/woodcraft-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/woodcraft-600.jpg 1x, images/thumbs/masonry/woodcraft-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+
+                    <h2 class="entry__title"><a href="single-standard.html">Just a Standard Format Post.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Design</a>
+                                        <a href="category.html">Photography</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 29, 2019</a>
+                                    </span>
+                    </div>
 
                 </div>
-            </div>
-        </div>
-        <!-- END CENTER BLOCK -->
-
-        <!-- LEFT BLOCK -->
-        <div class="col-md-3">
-            <div class="homepage-welcome-block-content-left background-theme">
-
-                <a href="#"><img src="{{asset("front1/")}}bjorn-1/wp-content/uploads/2017/09/about-welcome-block-1.jpg" alt="welcome-left-image" /></a>
-                <div class="homepage-welcome-block-content-text">
-                    <h3>Travel category</h3>
-                    The concept of travel is shaped by things with meaning.
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
                 </div>
             </div>
-        </div>
-        <!-- END LEFT BLOCK -->
 
-        <!-- RIGHT BLOCK -->
-        <div class="col-md-3">
-            <div class="homepage-welcome-block-content-right background-theme">
-                <div class="homepage-welcome-block-content-text text-center">
-                    <h5>INSPIRATION</h5>
-                    <h3>Inspiration
-                        category</h3>
-                    <p class="welcome-p">Coming from two<br class="welcome-block-br" /> different cultures has<br class="welcome-block-br" /> been instrumental in<br class="welcome-block-br" /> how we’ve approached.</p>
-                    <a class="btn btn-bordered-white" href="http://wp.magnium-themes.com/bjorn/bjorn-1/category/inspiration/">Read more</a>
+        </article> <!-- end article -->
 
+        <article class="masonry__brick entry format-quote animate-this animated" style="position: absolute; left: 50%; top: 0px;">
+
+            <div class="entry__thumb">
+                <blockquote>
+                    <p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
+
+                    <cite>Dieter Rams</cite>
+                </blockquote>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 50%; top: 505.14px;">
+
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/tulips-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/tulips-600.jpg 1x, images/thumbs/masonry/tulips-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-standard.html">10 Interesting Facts About Caffeine.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Health</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 28, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
                 </div>
             </div>
-        </div>
-        <!-- RIGHT BLOCK END -->
 
-    </div>
+        </article> <!-- end article -->
 
-    <!-- // Image block -->
-    <!-- // Featured categories blocks -->
-    <!-- About text -->
-    <div class="col-md-12 col-sm-12 text-center">
-        <div class="bjorn-theme-block margin-top-large">
-            <h2>Welcome to the Bjorn</h2>
-            <p class="font-size-large">We love every new day! A new day gives us travel and pleasant acquaintances. We are open to new ideas and new incredible events. No matter what!</p>
-            <a class="btn alt" href="about/index.html">Read more</a>
 
-        </div>
-    </div>
-    <div class="bjorn-popular-post-list-wrapper clearfix container bjorn-theme-block"><h4 class="lined">Most popular posts</h4><h2 class="lined">Top posts</h2>
-        <div class="row clearfix"><div class="col-md-12"><div class="bjorn-popular-post-list-nav"><div class="bjorn-popular-post-list-nav-next"></div>
-                    <div class="bjorn-popular-post-list-nav-prev"></div></div><div class="bjorn-popular-post-list-content">
-                    <div class="bjorn-popular-post-list-content-inner"><div id="bjorn-popular-post-list" class="bjorn-popular-post-list owl-carousel">
-                            <div class="bjorn-popular-post"><a href="two-inspired-stories-about-morning/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="two-inspired-stories-about-morning/index.html"><h5>Two inspired stories about Morning</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="possible-architecture/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="possible-architecture/index.html"><h5>Possible Architecture in Old town Prague</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="a-weekend-in-london-with-friends/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wall.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="a-weekend-in-london-with-friends/index.html"><h5>A Weekend in London with my Best Friends</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="how-to-care-for-spring-plants/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/beauty/index.html" rel="category tag">Beauty</a>, <a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="how-to-care-for-spring-plants/index.html"><h5>How to care about lovely spring plants?</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="home-tour-antwerp-historic/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="home-tour-antwerp-historic/index.html"><h5>Beauty Treatments Worth Traveling For</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 11, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="how-to-change-your-life-with-travel/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountain.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="how-to-change-your-life-with-travel/index.html"><h5>How to change your life with Travel</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="typography-post/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="typography-post/index.html"><h5>Typography Post</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="interview-with-paris-girl-on-montmartre/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grass.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="interview-with-paris-girl-on-montmartre/index.html"><h5>Interview with Paris Girl on Montmartre</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="rose-by-carte-noir/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/aerinphoto-4.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/beauty/index.html" rel="category tag">Beauty</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="rose-by-carte-noir/index.html"><h5>Rose by Carte Noir</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div><div class="bjorn-popular-post"><a href="just-a-simple-quote-post/index.html"><div class="bjorn-popular-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair.jpg?resize=1140%2C700);"></div></a><div class="bjorn-popular-post-details">
-                                    <div class="bjorn-popular-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                    <div class="bjorn-popular-post-title"><a href="just-a-simple-quote-post/index.html"><h5>Just a simple Quote Post</h5></a></div>
-                                    <div class="bjorn-popular-post-date">May 10, 2016</div>
-                                </div></div></div></div></div></div></div></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="bjorn-editorspick-post-list-wrapper bjorn-theme-block clearfix"><h4>Best posts from Bjorn</h4><h2 class="lined">Editor&#039;s Picks</h2><div id="bjorn-editorspick-post-list" class="bjorn-editorspick-post-list"><div class="row bjorn-editorspick-post-row"><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="home-tour-antwerp-historic/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 0%; top: 829.14px;">
 
-                                        <div class="bjorn-editorspick-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
-                                        <div class="bjorn-editorspick-post-title"><a href="home-tour-antwerp-historic/index.html"><h2>Beauty Treatments Worth Traveling For</h2></a></div>
-                                        <div class="bjorn-editorspick-post-date">May 11, 2016</div>
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/dew-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/dew-600.jpg 1x, images/thumbs/masonry/dew-1200.jpg 2x" alt="">
+                </a>
+            </div>
 
-                                    </div></div></div><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="possible-architecture/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-standard.html">Health Benefits Of Morning Dew.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Lifestyle</a>
+                                        <a href="category.html">Health</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 28, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
 
-                                        <div class="bjorn-editorspick-post-category"><a href="category/inspiration/index.html" rel="category tag">Inspiration</a></div>
-                                        <div class="bjorn-editorspick-post-title"><a href="possible-architecture/index.html"><h2>Possible Architecture in Old town Prague</h2></a></div>
-                                        <div class="bjorn-editorspick-post-date">May 10, 2016</div>
+        </article> <!-- end article -->
 
-                                    </div></div></div></div><div class="row bjorn-editorspick-post-row"><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="how-to-care-for-spring-plants/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 50%; top: 1306.15px;">
 
-                                        <div class="bjorn-editorspick-post-category"><a href="category/beauty/index.html" rel="category tag">Beauty</a>, <a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                        <div class="bjorn-editorspick-post-title"><a href="how-to-care-for-spring-plants/index.html"><h2>How to care about lovely spring plants?</h2></a></div>
-                                        <div class="bjorn-editorspick-post-date">May 10, 2016</div>
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/rucksack-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/rucksack-600.jpg 1x, images/thumbs/masonry/rucksack-1200.jpg 2x" alt="">
+                </a>
+            </div>
 
-                                    </div></div></div><div class="col-md-6"><div class="bjorn-editorspick-post bjorn-editorspick-post-large"><a href="two-inspired-stories-about-morning/index.html"><div class="bjorn-editorspick-post-image hover-effect-img" data-style="background-image: url(https://i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries.jpg?resize=1140%2C700);"></div></a><div class="bjorn-editorspick-post-details">
+            <div class="entry__text">
+                <div class="entry__header">
 
-                                        <div class="bjorn-editorspick-post-category"><a href="category/travel/index.html" rel="category tag">Travel</a></div>
-                                        <div class="bjorn-editorspick-post-title"><a href="two-inspired-stories-about-morning/index.html"><h2>Two inspired stories about Morning</h2></a></div>
-                                        <div class="bjorn-editorspick-post-date">May 10, 2016</div>
+                    <h2 class="entry__title"><a href="single-standard.html">The Art Of Visual Storytelling.</a></h2>
 
-                                    </div></div></div></div></div></div>			</div>
-        </div>
+                    <div class="entry__meta">
+                                        <span class="entry__meta-cat">
+                                            <a href="category.html">Lifestyle</a>
+                                            <a href="category.html">Work</a>
+                                        </span>
+                        <span class="entry__meta-date">
+                                            <a href="single-standard.html">Apr 26, 2019</a>
+                                        </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 0%; top: 1630.15px;">
+
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/jump-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/jump-600.jpg 1x, images/thumbs/masonry/jump-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+
+                    <h2 class="entry__title"><a href="single-standard.html">Create Meaningful Family Moments.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Family</a>
+                                        <a href="category.html">Relationship</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 26, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-audio animate-this animated" style="position: absolute; left: 50%; top: 2075.17px;">
+
+            <div class="entry__thumb">
+                <a href="single-audio.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/guitarist-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/guitarist-600.jpg 1x, images/thumbs/masonry/guitarist-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-audio.html">What Your Music Preference Says About You and Your Personality.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Lifestyle</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 0%; top: 2491.3px;">
+
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/beetle-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-standard.html">Throwback To The Good Old Days.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Lifestyle</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-video animate-this animated" style="position: absolute; left: 50%; top: 2968.31px;">
+
+            <div class="entry__thumb video-image">
+                <a href="https://player.vimeo.com/video/117310401?color=339989&amp;title=0&amp;byline=0&amp;portrait=0" data-lity="" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/cookies-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/cookies-600.jpg 1x, images/thumbs/masonry/cookies-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-video.html">No Sugar Oatmeal Cookies.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Lifestyle</a>
+                                        <a href="category.html">Health</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 0%; top: 3292.31px;">
+
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/lamp-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/lamp-600.jpg 1x, images/thumbs/masonry/lamp-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-standard.html">Another Standard Format Post.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Design</a>
+                                        <a href="category.html">Photography</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 24, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-link animate-this animated" style="position: absolute; left: 50%; top: 3737.32px;">
+
+            <div class="entry__thumb">
+                <div class="link-wrap">
+                    <h2>Powerful web &amp; Wordpress hosting. Guaranteed. Starting at $2.59/mo!</h2>
+                    <cite>
+                        <a target="_blank" href="https://www.dreamhost.com/r.cgi?287326">https://www.dreamhost.com</a>
+                    </cite>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-gallery animate-this animated" style="position: absolute; left: 50%; top: 4125.47px;">
+
+            <div class="entry__thumb slider">
+                <div class="slider__slides slick-initialized slick-slider slick-dotted">
+                    <div class="slick-list draggable" style="height: 461.141px;"><div class="slick-track" style="opacity: 1; width: 1203px;"><div class="slider__slide slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 401px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;">
+                                <img src="{{ asset("front2/") }}images/thumbs/masonry/gallery/slide-1-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/gallery/slide-1-600.jpg 1x, images/thumbs/masonry/gallery/slide-1-1200.jpg 2x" alt="">
+                            </div><div class="slider__slide slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" style="width: 401px; position: relative; left: -401px; top: 0px; z-index: 998; opacity: 0;">
+                                <img src="{{ asset("front2/") }}images/thumbs/masonry/gallery/slide-2-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/gallery/slide-2-600.jpg 1x, images/thumbs/masonry/gallery/slide-2-1200.jpg 2x" alt="">
+                            </div><div class="slider__slide slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" style="width: 401px; position: relative; left: -802px; top: 0px; z-index: 998; opacity: 0;">
+                                <img src="{{ asset("front2/") }}images/thumbs/masonry/gallery/slide-3-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/gallery/slide-3-600.jpg 1x, images/thumbs/masonry/gallery/slide-3-1200.jpg 2x" alt="">
+                            </div></div></div>
+
+
+                    <ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 3" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button></li></ul></div>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-gallery.html">The Best Tropical Leaves Images.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Vacation</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 23, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 0%; top: 4153.45px;">
+
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/walk-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/walk-600.jpg 1x, images/thumbs/masonry/walk-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-standard.html">Using Repetition and Patterns in Photography.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Work</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 23, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
+        <article class="masonry__brick entry format-standard animate-this animated" style="position: absolute; left: 0%; top: 4954.47px;">
+
+            <div class="entry__thumb">
+                <a href="single-standard.html" class="entry__thumb-link">
+                    <img src="{{ asset("front2/") }}images/thumbs/masonry/real-600.jpg" srcset="{{ asset("front2/") }}images/thumbs/masonry/real-600.jpg 1x, images/thumbs/masonry/real-1200.jpg 2x" alt="">
+                </a>
+            </div>
+
+            <div class="entry__text">
+                <div class="entry__header">
+                    <h2 class="entry__title"><a href="single-standard.html">How We Live Is What Makes Us Real.</a></h2>
+                    <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="category.html">Travel</a>
+                                        <a href="category.html">Vacation</a>
+                                    </span>
+                        <span class="entry__meta-date">
+                                        <a href="single-standard.html">Apr 23, 2019</a>
+                                    </span>
+                    </div>
+                </div>
+                <div class="entry__excerpt">
+                    <p>
+                        Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua...
+                    </p>
+                </div>
+            </div>
+
+        </article> <!-- end article -->
+
     </div>
 
 {% endblock %}

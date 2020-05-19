@@ -2,887 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24213599-c3ad-4084-b8d5-42e3f0f987a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/bjorn-1/wp-content/uploads/2017/09/about-welcome-block-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/bjorn-1/wp-content/uploads/2017/09/welcome-block-middle-100x100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/bjorn-1/wp-content/uploads/2017/09/welcome-block-middle-60x60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/bjorn-1/wp-content/uploads/2017/09/welcome-block-middle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2013/06/necklace-822f7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2013/06/necklace-8406a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2013/06/necklace-8e0a7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-home104a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-home1d5c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-home4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-home6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-home7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-homeb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-homed4d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/03/interior-homee69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-152df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-1b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-252df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-2b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountain4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountain6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountain7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountain927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountainb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountaind4d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-mountaine77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-13daa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-16ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-17a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-1b14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-1d6e5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-1e69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea-1f850.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sea927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-seab14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-sead4d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-seae69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-seae77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cap-252df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cap-2b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair-152df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair-1b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greece927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greeceb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greeced4d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-greecee69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal547f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimal996a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimalb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/home-minimale77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/ocean-beach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/ocean-beach1d5c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/ocean-beach4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/ocean-beach7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/ocean-beachb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/ocean-beache69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i0.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/ocean-beachf850.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2013/06/necklace-722f7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2013/06/necklace-7e0a7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries547f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berries927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berriesa303.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berriesb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berriesdd26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cake-berriese77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cap-1406a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cap-152df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/cap-1b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair52eb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair7ef0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chairb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chaird6e5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chaire69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chaire77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grass1ffb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grass4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grass547f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grass6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grass7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grassb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grasse77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i1.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/girl-grassf77f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/aerinphoto-46ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-352df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-3b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-4406a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-452df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/backpack-4b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer52eb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer7ef0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrer927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrerb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrere5b6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/beach-palmstrere77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair-2406a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair-252df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/chair-2b91b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girl3daa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girl547f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girl6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girl7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girl81e6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girl927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girlb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girle69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/desert-girle77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd1d5c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannd927c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislanndb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislanndc508.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislanndd4d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/mangirlislannde69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wall4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wall547f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wall6ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wall7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wallb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-walld4d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-walle69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-walle77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/things-wallf850.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowers3daa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowers4459.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowers7a87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowers81e6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowersb14c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowerse69d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowerse77a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2016/05/window-flowersf850.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2017/03/welcome-3-aerin21ae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2017/09/cropped-favicon7398.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2017/09/cropped-faviconfd20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/i2.wp.com/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/uploads/2017/09/cropped-faviconff94.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/s0.wp.com/wp-content/js/devicepx-jetpack5b3a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/secure.gravatar.com/images/grav-share-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/stats.wp.com/e-202019.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/stats.wp.com/s-202019.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/00c04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/05e1f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/1f893.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/213cf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/28915.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/3eae8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/45e2e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/4622a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/4ed04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/515df.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/59f81.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/5de8b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/5f3e8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/649e8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/73f80.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/77b39.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/7e928.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/8286c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/83257.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/881ab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/99be4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/a1e75.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/a2902.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/a74da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/b8317.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/c40b9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/c40b9.js.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/c8cca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/caed0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/d88fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/e32b7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/e583b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/e764d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/ef8d8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/contact-form-7/images/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/contact-form-7/includes/css/styles33a6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/instagram-feed/css/sb-instagram.min7ef2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/instagram-feed/css/sb-instagram.min7ef2.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/instagram-feed/img/loader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/instagram-feed/img/small-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/css/jetpack6c2d.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/carousel/images/arrows-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/carousel/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/carousel/images/carousel-sprite-2xe4da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/carousel/images/carousel-spritee4da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/shortcodes/images/collapse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/shortcodes/images/expand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/shortcodes/images/slide-nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/shortcodes/img/slideshow-controls-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/jetpack/modules/shortcodes/img/slideshow-controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.minba3a.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/responsive-lightbox/assets/swipebox/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/responsive-lightbox/assets/swipebox/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/assets/coloredbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/assets/gridtile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/assets/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/css/closedhand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/css/openhand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/css/settings03e2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/woocommerce-layout0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/css/woocommerce0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/WooCommerced41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/star.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/star.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/star.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/fonts/stard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/woocommerce/assets/images/icons/loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/plugins/wp-pagenavi/pagenavi-css44fd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/animationsbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/bootstrapbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/bootstrapbf11.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/css-skinbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/font-awesomebf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/font-awesomebf11.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/idangerous.swiperbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/nanoscrollerbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/nanoscrollerbf11.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/css/offcanvasmenubf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/js/owl-carousel/owl.carouselbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/js/owl-carousel/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/js/select2/select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/js/select2/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/js/select2/select2bf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/js/select2/select2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/responsivedc98.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/responsivedc98.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-content/themes/bjorn/style20b9.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-includes/css/dashicons.minbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-includes/fonts/dashicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-includes/js/thickbox/thickboxbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-includes/wlwmanifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed00e3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed033e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed0ab5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed24dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed266c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed27c7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed28c9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed28d2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed296f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed2d59.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed2e62.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed3165.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed34e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed3a00.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed3ad5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed3d7d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed4043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed409a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed410f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed43b3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed453e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed4a0d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed4d50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed4d89" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed530b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed56a5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed5d6d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed6a8b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed7771" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed7918" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed7b06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed7b70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed7bee.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed7ecd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed8493.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed862e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed8c82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed8e6a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed9267" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed939e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed9562" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed95c1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed966a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed9c6a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embed9ca3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embeda6ee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedac13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedaf3f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedb0ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedb317" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedb5c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedb87d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedbac1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedbb8e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedbec1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedbef9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedc109.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedc5c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedcc84.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedd314" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedd556.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embeddcc3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embeddf3c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embede285" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embede5c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embede64b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedec1d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embededf8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedeff1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedf135.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedf58f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedf5c7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedf716" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedf835.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedfb22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedfc0f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedfc85.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp-json/oembed/1.0/embedff8d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/TweenLite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-1/wp-content/uploads/2017/09/about-welcome-block-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-1/wp-content/uploads/2017/09/welcome-block-middle-100x100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-1/wp-content/uploads/2017/09/welcome-block-middle-60x60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-1/wp-content/uploads/2017/09/welcome-block-middle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/2016/03/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/2016/05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/2016/05/page/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/404/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/Popover requires tooltip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/TweenLite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/Version/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/a-weekend-in-london-with-friends/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/a-weekend-in-london-with-friends/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/a-weekend-in-london-with-friends/index08cc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/a-weekend-in-london-with-friends/things-wall/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/a-weekend-in-london-with-friends/things-wall/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/about/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/author/bjorn/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/author/bjorn/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/author/bjorn/page/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/bring-me-back-to-the-summer/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/bring-me-back-to-the-summer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/bring-me-back-to-the-summer/window-flowers/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/bring-me-back-to-the-summer/window-flowers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/cart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/category/beauty/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/category/beauty/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/category/inspiration/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/category/inspiration/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/category/travel/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/category/travel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/checkout/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/comments/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/contact-us/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/fashion-exhibitions-you-shouldnt-miss-in-summer/beach-sea-2/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/fashion-exhibitions-you-shouldnt-miss-in-summer/beach-sea-2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/fashion-exhibitions-you-shouldnt-miss-in-summer/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/fashion-exhibitions-you-shouldnt-miss-in-summer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/forms/forms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/fullwidth-page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/gallery/Popover requires tooltip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/gallery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/home-tour-antwerp-historic/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/home-tour-antwerp-historic/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/home-tour-antwerp-historic/index954a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/home-tour-antwerp-historic/mangirlislannd/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/home-tour-antwerp-historic/mangirlislannd/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/home-tour-antwerp-historic/ocean-beach/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/home-tour-antwerp-historic/ocean-beach/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-care-for-spring-plants/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-care-for-spring-plants/home-minimal/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-care-for-spring-plants/home-minimal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-care-for-spring-plants/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-care-for-spring-plants/index06ab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-care-for-spring-plants/indexa82a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-change-your-life-with-travel/beach-mountain/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-change-your-life-with-travel/beach-mountain/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-change-your-life-with-travel/beach-sea/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-change-your-life-with-travel/beach-sea/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-change-your-life-with-travel/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/how-to-change-your-life-with-travel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index0550.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index1675.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index2115.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index2b99.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index3073.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index3117.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index4d7b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index53dc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index5458.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index59e7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index5e0c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index6ad0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index79ff.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index831e.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index8649.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index8e8e.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index959b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/index96ef.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexa382.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexb40a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexba12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexcdc2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexdaf2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexe63b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexe75e.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexe81a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexe932.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexee40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexf327.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/indexf5c2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/interview-with-paris-girl-on-montmartre/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/interview-with-paris-girl-on-montmartre/girl-grass/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/interview-with-paris-girl-on-montmartre/girl-grass/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/interview-with-paris-girl-on-montmartre/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/just-a-simple-quote-post/chair/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/just-a-simple-quote-post/chair/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/just-a-simple-quote-post/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/just-a-simple-quote-post/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/my-account/+s+" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/my-account/TweenLite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/my-account/Version/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/my-account/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/my-account/index.html.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/my-account/lost-password/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/photoshoot-with-professionals/desert-girl/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/photoshoot-with-professionals/desert-girl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/photoshoot-with-professionals/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/photoshoot-with-professionals/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/photoshoot-with-professionals/index0e22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/populate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/possible-architecture/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/possible-architecture/girl-greece/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/possible-architecture/girl-greece/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/possible-architecture/girl-greece/index.html.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/possible-architecture/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/possible-architecture/indexf970.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product-category/accessories/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product-category/accessories/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product-category/accessories/index0bfe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product-category/accessories/indexaa03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product-category/accessories/indexe155.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product-category/accessories/indexfb29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/classic-backpack/Popover requires tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/classic-backpack/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/classic-backpack/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/classic-backpack/index0bfe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/classic-backpack/indexaa03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/classic-backpack/indexfb29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/gold-plated-headband/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/gold-plated-headband/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/gold-plated-headband/indexaa03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/gold-plated-headband/indexe155.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/gold-plated-headband/indexfb29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/modern-chair/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/modern-chair/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/modern-chair/index0bfe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/modern-chair/indexe155.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/modern-chair/indexfb29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/plane-cap/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/plane-cap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/plane-cap/index0bfe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/plane-cap/indexaa03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/product/plane-cap/indexe155.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/rose-by-carte-noir/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/rose-by-carte-noir/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/shop/Popover requires tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/shop/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/shop/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/shop/index0bfe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/shop/indexaa03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/shop/indexe155.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/shop/indexfb29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/beauty/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/beauty/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/blog/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/color/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/color/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/color/page/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/editors_choice/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/editors_choice/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/food/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/food/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/inspiration/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/inspiration/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/photo/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/photo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/summer/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/summer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/summer/page/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/travel/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/travel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/tag/travel/page/2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/this-is-amazing-link/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/this-is-amazing-link/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/this-is-amazing-link/interior-home/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/this-is-amazing-link/interior-home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/two-inspired-stories-about-morning/Popover requires tooltip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/two-inspired-stories-about-morning/cake-berries/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/two-inspired-stories-about-morning/cake-berries/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/two-inspired-stories-about-morning/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/two-inspired-stories-about-morning/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/two-inspired-stories-about-morning/indexfedd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/typography-post/beach-palmstrer/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/typography-post/beach-palmstrer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/typography-post/feed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/typography-post/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/00c04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/05e1f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/1f893.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/213cf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/28915.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/3eae8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/45e2e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/4622a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/4ed04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/515df.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/59f81.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/5de8b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/5f3e8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/649e8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/73f80.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/77b39.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/7e928.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/8286c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/83257.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/881ab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/99be4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/a1e75.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/a2902.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/a74da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/b8317.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/c40b9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/c40b9.js.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/c8cca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/caed0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/d88fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/e32b7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/e583b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/e764d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/cache/minify/ef8d8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/contact-form-7/images/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/contact-form-7/includes/css/styles33a6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/instagram-feed/css/sb-instagram.min7ef2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/instagram-feed/css/sb-instagram.min7ef2.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/instagram-feed/img/loader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/instagram-feed/img/small-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/css/jetpack6c2d.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/carousel/images/arrows-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/carousel/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/carousel/images/carousel-sprite-2xe4da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/carousel/images/carousel-spritee4da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/shortcodes/images/collapse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/shortcodes/images/expand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/shortcodes/images/slide-nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/shortcodes/img/slideshow-controls-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/jetpack/modules/shortcodes/img/slideshow-controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.minba3a.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/responsive-lightbox/assets/swipebox/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/responsive-lightbox/assets/swipebox/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/assets/coloredbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/assets/gridtile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/assets/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/css/closedhand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/css/openhand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/css/settings03e2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/woocommerce-layout0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/css/woocommerce0226.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/WooCommerced41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/star.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/star.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/star.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/fonts/stard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/woocommerce/assets/images/icons/loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/plugins/wp-pagenavi/pagenavi-css44fd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/animationsbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/bootstrapbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/bootstrapbf11.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/css-skinbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/font-awesomebf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/font-awesomebf11.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/idangerous.swiperbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/nanoscrollerbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/nanoscrollerbf11.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/css/offcanvasmenubf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/js/owl-carousel/owl.carouselbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/js/owl-carousel/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/js/select2/select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/js/select2/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/js/select2/select2bf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/js/select2/select2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/responsivedc98.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/responsivedc98.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-content/themes/bjorn/style20b9.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-includes/css/dashicons.minbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-includes/fonts/dashicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-includes/js/thickbox/thickboxbf11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-includes/wlwmanifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed00e3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed033e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed0ab5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed24dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed266c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed27c7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed28c9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed28d2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed296f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed2d59.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed2e62.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed3165.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed34e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed3a00.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed3ad5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed3d7d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed4043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed409a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed410f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed43b3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed453e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed4a0d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed4d50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed4d89" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed530b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed56a5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed5d6d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed6a8b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed7771" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed7918" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed7b06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed7b70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed7bee.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed7ecd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed8493.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed862e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed8c82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed8e6a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed9267" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed939e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed9562" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed95c1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed966a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed9c6a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embed9ca3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embeda6ee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedac13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedaf3f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedb0ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedb317" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedb5c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedb87d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedbac1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedbb8e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedbec1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedbef9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedc109.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedc5c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedcc84.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedd314" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedd556.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embeddcc3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embeddf3c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embede285" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embede5c5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embede64b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedec1d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embededf8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedeff1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedf135.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedf58f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedf5c7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedf716" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedf835.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedfb22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedfc0f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedfc85.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/wp-json/oembed/1.0/embedff8d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/xmlrpc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front1/wp.magnium-themes.com/bjorn/bjorn-5/xmlrpc0db0.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/alert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/alert2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/alert3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/alert4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/alert5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/alert6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/alert7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/model2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/alert/model3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/background/error-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/background/login-register.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/background/socialbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/big/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/big/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/big/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/big/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/big/img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/big/img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/chrome-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/edge-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/firefox-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/internet-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/netscape-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/opera-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/photoshop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/safari-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/browser/sketch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/custom-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/icon/zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/logo-light-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/logo-light-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/logo-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/tooltip/Euclid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/assets/images/users/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/colors/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/bootstrap-switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/breadcrumb-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/card-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/chat-app-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/contact-app-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/dashboard1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/dashboard2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/dashboard3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/dashboard4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/easy-pie-chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/error-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/file-upload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/float-chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/floating-label.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/footable-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/footable-page.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/form-icheck.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/google-vector-map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/google-vector-map.css.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/icon-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/inbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/login-register-lock.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/other-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/pricing-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/progressbar-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/ribbon-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/stylish-tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/tab-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/table-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/timeline-vertical-horizontal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/ui-bootstrap-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/user-card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/pages/widget-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/spinners.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/junior.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/junior.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blogBundle/Entity/commentaire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/css/vendor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-audio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-search-w.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-behance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/about/about-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/about/about-2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/about/about-500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/contact/contact-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/contact/contact-2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/contact/contact-500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/beetle-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/beetle-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/cookies-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/cookies-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/dew-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/dew-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-1-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-1-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-2-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-2-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-3-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-3-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/guitarist-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/guitarist-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/jump-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/jump-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/lamp-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/lamp-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/real-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/real-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/rucksack-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/rucksack-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/tulips-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/tulips-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/walk-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/walk-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/woodcraft-1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/woodcraft-600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-01-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-01-2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-01-500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-02-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-02-2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-02-500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-03-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-03-2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-03-500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/standard/standard-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/standard/standard-2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/standard/standard-500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/wheel-1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/wheel-2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/images/wheel-500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front2/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/baseAdmin1.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/baseAdmin1.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blogBundle/Controller/frontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Controller/frontController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Entity/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Entity/Categorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Form/CategorieType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Form/CategorieType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Repository/articleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Repository/articleRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/afficherArticle.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/afficherArticle.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/afficherCat.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/afficherCat.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/ajoutCat.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/ajoutCat.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/modifierCat.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Back/modifierCat.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/881ab.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/881ab.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -990,25 +207,28 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1Z4T7FjmCObGJjW2QYELjDvvrgX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/blogBundle/Resources/views/Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/front2" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\junior\web\front2" />
+      <recent name="C:\wamp\www\junior\src\blogBundle\Entity" />
       <recent name="C:\wamp\www\junior\src\blogBundle\Resources\views\Default" />
       <recent name="C:\wamp\www\junior\web\front1" />
       <recent name="C:\wamp\www\junior\web\register" />
-      <recent name="C:\wamp\www\junior\src\blogBundle\Resources\views\Back" />
-      <recent name="C:\wamp\www\junior\web\front" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -1018,9 +238,9 @@
       <command value="s doctrine:database:create" />
       <command value="s doctrine:schema:create" />
       <command value="s doctrine:generate:form blogBundle:Article" />
-      <command value="s cache:clear" />
       <command value="s cache:clear --no-warmup" />
       <command value="c dump-autoload" />
+      <command value="s cache:clear" />
       <command value="s doctrine:schema:update --force" />
     </option>
   </component>
@@ -1048,46 +268,54 @@
       <workItem from="1589397959417" duration="13589000" />
       <workItem from="1589492925828" duration="1616000" />
       <workItem from="1589580970126" duration="733000" />
-      <workItem from="1589585631439" duration="31202000" />
+      <workItem from="1589585631439" duration="45148000" />
+      <workItem from="1589830488053" duration="10486000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1589586935726">
+    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1589894335268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589586935726" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589644862311">
+    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589894335268" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589657291805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589644862311" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589657291804" />
     <state x="684" y="398" key="ComposerCompositePathDialog" timestamp="1589144811217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="684" y="398" key="ComposerCompositePathDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589144811217" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1589834640234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589834640234" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589399252476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589399252476" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589637866079">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589664669208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589637866079" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589637866078">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589664669208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589637866078" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589637866078">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589664669208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589637866078" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589637866079">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589664669208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589637866079" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
     <state x="740" y="334" key="NewPhpClassDialog" timestamp="1589319871175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1104,14 +332,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="422" key="SymfonyPathDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589144830593" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589584643691">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589830554925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589584643691" />
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1589631467274">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589830554925" />
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1589894341234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589631467274" />
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589894341234" />
     <state x="157" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1589634382610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1127,28 +355,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig</url>
-          <line>52</line>
+          <line>42</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig</url>
-          <line>76</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig</url>
-          <line>24</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig</url>
-          <line>7</line>
+          <line>10</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig</url>
-          <line>6</line>
+          <line>9</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig</url>
+          <line>71</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

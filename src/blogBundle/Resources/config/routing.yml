@@ -43,3 +43,6 @@ afficherPost:
 afficherPostDetail:
     path:     /afficherPostDetail/{id}
     defaults: { _controller: blogBundle:front:afficherPostDetail }
+ajoutCom:
+    path:     /ajoutCom
+    defaults: { _controller: blogBundle:front:ajoutComment }
