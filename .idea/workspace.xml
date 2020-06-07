@@ -2,104 +2,451 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24213599-c3ad-4084-b8d5-42e3f0f987a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blogBundle/Entity/commentaire.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/css/vendor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/avatars/user-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-arrow-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-audio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-quote.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-search-w.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/icon-video.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-behance.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-dribbble.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-pinterest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-rss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/icons/social/icon-twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/sample-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/about/about-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/about/about-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/about/about-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/contact/contact-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/contact/contact-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/contact/contact-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/beetle-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/beetle-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/cookies-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/cookies-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/dew-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/dew-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-1-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-1-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-2-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-2-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-3-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/gallery/slide-3-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/guitarist-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/guitarist-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/jump-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/jump-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/lamp-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/lamp-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/real-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/real-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/rucksack-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/rucksack-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/tulips-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/tulips-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/walk-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/walk-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/woodcraft-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/masonry/woodcraft-600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-01-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-01-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-01-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-02-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-02-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-02-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-03-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-03-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/gallery/single-gallery-03-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/standard/standard-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/standard/standard-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/thumbs/single/standard/standard-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/wheel-1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/wheel-2000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/images/wheel-500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/front2/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blogBundle/Entity/listAime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blogBundle/Entity/listVue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/204. Blog-DOC/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/slicknav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/style.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/theme-default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/theme-default.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/about/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/add/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/banner/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/banner/breadcam_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/banner/details_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/banner/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/banner/testmonial-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/learn_about_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/single_blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/single_blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/single_blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/single_blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/single_blog_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/blog/slide_thumb_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/comment/comment_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/comment/comment_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/comment/comment_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/instagram/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/instagram/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/instagram/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/instagram/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/googleAdd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/most_recent/googleAdd2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photo_gallery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photo_gallery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photography/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photography/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photography/single-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photography/single-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photography/single-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/photography/single-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/post_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/post/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/team/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/team/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/team/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/img/team/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/ajax-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/jquery.scrollUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/jquery.slicknav.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/scrollIt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/vendor/modernizr-3.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_blog_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_bradcam.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_instagram_area.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_newletter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_recent_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_section_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_slick-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_testmonial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_varriable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/_welcome_area.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalFront/scss/theme-default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/ad-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/ad-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/ad-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/galery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/galery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/galery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/galery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/galery-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/galery-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/header-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/header-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/hot-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/hot-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/hot-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/logo-alt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/media-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/media-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/post-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/img/widget-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/finalfront1/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/flaticon/license/license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/fontawesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/fontawesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/fontawesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/fontawesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/fontawesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/fontawesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/ionicons/cheatsheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/ionicons/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/big_image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/big_image_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/img_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/person_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/person_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/images/person_testimonial_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/jquery-migrate-3.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_navbar-align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/front3/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jquery-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jquery.lightbox-0.5.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blogBundle/Controller/frontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Controller/frontController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blogBundle/Entity/commentaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Entity/commentaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blogBundle/Repository/articleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Repository/articleRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/881ab.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/front1/wp-content/cache/minify/881ab.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,16 +566,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/front2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/blogBundle/Entity" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\junior\web\front2" />
       <recent name="C:\wamp\www\junior\src\blogBundle\Entity" />
-      <recent name="C:\wamp\www\junior\src\blogBundle\Resources\views\Default" />
-      <recent name="C:\wamp\www\junior\web\front1" />
-      <recent name="C:\wamp\www\junior\web\register" />
+      <recent name="C:\wamp\www\junior\web\front3" />
+      <recent name="C:\wamp\www\junior\web\finalfront1" />
+      <recent name="C:\wamp\www\junior\web\finalFront" />
+      <recent name="C:\wamp\www\junior\web" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -269,7 +616,11 @@
       <workItem from="1589492925828" duration="1616000" />
       <workItem from="1589580970126" duration="733000" />
       <workItem from="1589585631439" duration="45148000" />
-      <workItem from="1589830488053" duration="10486000" />
+      <workItem from="1589830488053" duration="17991000" />
+      <workItem from="1590351159435" duration="589000" />
+      <workItem from="1590356274227" duration="1952000" />
+      <workItem from="1591086983764" duration="2233000" />
+      <workItem from="1591347600168" duration="29505000" />
     </task>
     <servers />
   </component>
@@ -280,14 +631,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1589894335268">
+    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1591525560584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589894335268" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1589657291805">
+    <state x="753" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591525560584" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591525890717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589657291804" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591525890717" />
     <state x="684" y="398" key="ComposerCompositePathDialog" timestamp="1589144811217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,30 +647,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589834640234" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1589399252476">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1590493898177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589399252476" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1589664669208">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590493898177" />
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1591525996943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1589664669208">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591525996943" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1591525996943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1589664669208">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591525996943" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1591525996942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1589664669208">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591525996942" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1591525996943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589664669208" />
-    <state x="740" y="334" key="NewPhpClassDialog" timestamp="1589319871175">
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591525996943" />
+    <state x="740" y="334" key="NewPhpClassDialog" timestamp="1591446633040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="334" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589319871175" />
+    <state x="740" y="334" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591446633040" />
     <state x="795" y="443" key="NewPhpFileDialog" timestamp="1589304253722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -332,18 +683,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="772" y="422" key="SymfonyPathDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589144830593" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589830554925">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591347607186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589830554925" />
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1589894341234">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591347607186" />
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1591525996961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589894341234" />
-    <state x="157" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1589634382610">
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591525996961" />
+    <state x="157" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1591440922603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="157" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589634382610" />
+    <state x="157" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591440922603" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -355,13 +706,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig</url>
-          <line>42</line>
+          <line>197</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/categorie.html.twig</url>
-          <line>10</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig</url>
@@ -370,8 +716,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig</url>
-          <line>71</line>
+          <line>75</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Resources/views/base.html.twig</url>
+          <line>113</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/blogBundle/Resources/views/Default/postDetail.html.twig</url>
+          <line>63</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

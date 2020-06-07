@@ -23,4 +23,20 @@ public function aff($id)
     return $queri=$query->getResult();
 
 }
+    public function count($id)
+    {
+        $query=$this->getEntityManager()
+            ->createQuery('select count(c.id) from blogBundle:commentaire c where c.article=:tit')
+            ->setParameters(array('tit'=>$id));
+        return $queri=$query->getResult();
+
+    }
+    public function count1($id)
+    {
+        $query=$this->getEntityManager()
+            ->createQuery('select count(c.id) from blogBundle:listVue c where c.article=:tit')
+            ->setParameters(array('tit'=>$id));
+        return $queri=$query->getResult();
+
+    }
 }

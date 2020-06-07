@@ -1,13 +1,15 @@
-{% extends 'base.html.twig' %}
+{##}{% extends 'base.html.twig' %}
 {% block cat %}
-{% for infos in infos %}
-    <li><a href="{{ path('afficherPost',{'id': infos.id})}}">{{infos.titre}}</a></li>
-{% endfor %}
+    {% for infos in infos %}
+        <a class="dropdown-item" href="{{ path('afficherPost',{'id': infos.id})}}">{{infos.titre}}</a>
+
+    {% endfor %}
 {% endblock %}
-{% block titre %}
-    {{ info.categorie.titre }}
-{% endblock %}
-{% block body %}
+
+
+{% block body1 %}
+  {#  <script src="{{ asset('') }}plugins/jquery/jquery.min.js"></script>#}
+    <script type="text/javascript" src="{{ asset('') }}jquery-min.js"></script>
 
     <script>
      //  $(document).ready(function () {
@@ -41,25 +43,27 @@
 
         })(jQuery);*/
 
-     jQuery(document).ready(function(){
+     jQuery(document).ready(function (){
 
-         $("#ajout").click(function(){
-             var com=$('#commentaire').val();
+         $("#submit").click(function(){
+             var com=$('#message').val();
              var id={{ info.id}};
-             var  mail=$('#cEmail').val();
+             var  mail=$('#email').val();
 
              $.ajax({
-                 url : "{{ path('ajoutCom') }}",
-                 method : 'post',
-                 data :{commentaire : com,id :id,mail:mail},
+                 url : "{{ path('afficherPostDetail',{'id': info.id}) }}",
+                 method : 'get',
+                 data :{cMessage : com,id :id,cEmail:mail},
                  success : function (response) {
                      console.log(response);
-                     alert("imen");
+                    // alert("imen");
 
                  }
              });
 
      });
+
+
          })
      ;
 
@@ -86,139 +90,193 @@
 
     </script>
 
+    <div class="row blog-entries">
+        <div class="col-md-12 col-lg-8 main-content">
+            <h1 class="mb-4">{{info.titre}}</h1>
+            <div class="post-meta">
+                <span class="category">{{info.categorie.titre}}</span>
+                <span class="mr-2">{{info.dateAjout|date}} </span> &bullet;
+                <span class="ml-2"><span class="fa fa-comments"></span> {{nbr.0[1]}}</span>
+            </div>
+            <div class="post-content-body">
+
+                <div class="row mb-5">
+                    <div class="col-md-12 mb-4 element-animate">
+                        <img src="{{ asset('Back/images/' ~ info.image)}}" alt="Image placeholder" class="img-fluid">
+                    </div>
+
+                </div>
+<p> {{info.description|raw }}</p>
+            </div>
+
+            <div style="margin-left: 50%; background-color: #67B5E4;">
+    <form method="post">
+        <button type="submit" class="btn btn-link js-like">
+            {% if test == false %}
+                <i class="fa fa-thumbs-o-up">J'aime</i>
+            {% else %}
+                <i class="fa fa-thumbs-up">Je n'aime plus</i>
+
+            {% endif %} </button>
+       <a href=""> <i class="fa fa-eye" style="margin-left:30px; ">{{nbrVue.0[1]}}</i></a>
 
 
-    <main class="row content__page">
+    </form>
 
-        <article class="column large-full entry format-standard">
 
-            <div class="media-wrap entry__media">
-                <div class="entry__post-thumb">
-                    <img src="{{ asset('Back/images/' ~ info.image)}}" srcset="" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+            </div>
+            <div class="pt-5">
+
+                <p>Categories:  <a href="#">{{info.categorie.titre}}</a>, <a href="#">{{info.categorie.titre}}</a>  Tags: <a href="#">{{info.categorie.titre}}</a>, <a href="#">{{info.categorie.titre}}</a></p>
+            </div>
+
+
+            <div class="pt-5">
+                <h3 class="mb-5">{{nbr.0[1]}} Comments</h3>
+                <ul class="comment-list">
+                    {% for list in list %}
+
+                    <li class="comment">
+                        <div class="vcard">
+                        </div>
+                        <div class="comment-body">
+                            <h3>{{ list.user.prenom }}  {{ list.user.nom }}</h3>
+                            <div class="meta">{{list.dateAjout|date}}</div>
+                            <p>{{ list.commentaire }}</p>
+                        </div>
+                    </li>                        {% endfor %}
+
+
+                </ul>
+                <!-- END comment-list -->
+                <div class="navigation">
+                    {{ knp_pagination_render(list) }}
+                </div>
+
+                <div class="comment-form-wrap pt-5">
+                    <h3 class="mb-5">Leave a comment</h3>
+                    <form action="{{ path('afficherPostDetail',{'id': info.id}) }}" class="p-5 bg-light" method="get" >
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" class="form-control"  name="cName" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" class="form-control" name="cEmail" id="email">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message"  name="cMessage"  cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Post Comment" class="btn btn-primary"  id="submit">
+                        </div>
+
+                    </form>
                 </div>
             </div>
 
-            <div class="content__page-header entry__header">
-                <h1 class="display-1 entry__title">
-                   {{info.titre}}
-                </h1>
-                <ul class="entry__header-meta">
-                    <li class="author"> <a href="#0"></a></li>
-                    <li class="date">{{info.dateAjout|date}}</li>
-                    <li class="cat-links">
-                        <a href="#0">{{info.categorie.titre}}</a><a href="#0"></a>
-                    </li>
-                </ul>
-            </div> <!-- end entry__header -->
+        </div>
 
-            <div class="entry__content">
+        <!-- END main-content -->
 
-                <p class="lead drop-cap">
-                    {{info.description|raw }}
-                </p>
-
-
-            </div> <!-- end entry content -->
-
-
-            <div class="entry__related">
-                <h3 class="h2">Related Articles</h3>
-
-                <ul class="related">
-                    <li class="related__item">
-                        <a href="single-standard.html" class="related__link">
-                            <img src="{{ asset('front2/') }}images/thumbs/masonry/walk-600.jpg" alt="">
-                        </a>
-                        <h5 class="related__post-title">Using Repetition and Patterns in Photography.</h5>
-                    </li>
-
-                </ul>
-            </div> <!-- end entry related -->
-
-        </article> <!-- end column large-full entry-->
-
-
-        <div class="comments-wrap">
-
-            <div id="comments" class="column large-12">
-
-                <h3 class="h2">5 Comments</h3>
-
-                <!-- START commentlist -->
-                <ol class="commentlist">
-
-                    <li class="depth-1 comment">
-
-                        <div class="comment__avatar">
-                            <img class="avatar" src="{{ asset('front2/') }}images/avatars/user-01.jpg" alt="" width="50" height="50">
-                        </div>
-
-                        <div class="comment__content">
-
-                            <div class="comment__info">
-                                <div class="comment__author">Itachi Uchiha</div>
-
-                                <div class="comment__meta">
-                                    <div class="comment__time">April 30, 2019</div>
-                                    <div class="comment__reply">
-                                        <a class="comment-reply-link" href="#0">Reply</a>
+        <div class="col-md-12 col-lg-4 sidebar">
+            <div class="sidebar-box search-form-wrap">
+                <form action="#" class="search-form">
+                    <div class="form-group">
+                        <span class="icon fa fa-search"></span>
+                        <input type="text" class="form-control" id="s" placeholder="Type a keyword and hit enter">
+                    </div>
+                </form>
+            </div>
+            <!-- END sidebar-box -->
+            <div class="sidebar-box">
+                <div class="bio text-center">
+                    <img src="{{ asset("front3/") }}images/person_1.jpg" alt="Image Placeholder" class="img-fluid">
+                    <div class="bio-body">
+                        <h2>Meagan Smith</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
+                        <p><a href="#" class="btn btn-primary btn-sm">Read my bio</a></p>
+                        <p class="social">
+                            <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
+                            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+                            <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
+                            <a href="#" class="p-2"><span class="fa fa-youtube-play"></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- END sidebar-box -->
+            <div class="sidebar-box">
+                <h3 class="heading">Popular Posts</h3>
+                <div class="post-entry-sidebar">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="{{ asset("front3/") }}images/img_1.jpg" alt="Image placeholder" class="mr-4">
+                                <div class="text">
+                                    <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                    <div class="post-meta">
+                                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="comment__text">
-                                <p>Adhuc quaerendum est ne, vis ut harum tantas noluisse, id suas iisque mei. Nec te inani ponderum vulputate,
-                                    facilisi expetenda has et. Iudico dictas scriptorem an vim, ei alia mentitum est, ne has voluptua praesent.</p>
-                            </div>
-
-                        </div>
-
-                    </li> <!-- end comment level 1 -->
-
-
-
-                </ol>
-                <!-- END commentlist -->
-
-            </div> <!-- end comments -->
-
-            <div class="column large-12 comment-respond">
-
-                <!-- START respond -->
-                <div id="respond">
-
-                    <h3 class="h2">Add Comment <span>Your email address will not be published</span></h3>
-
-                    <form name="contactForm" id="contactForm" method="post" action="{{ path('') }}" autocomplete="off">
-                        <fieldset>
-
-                          {# <div class="form-field">
-                                <input name="cName" id="cName" class="full-width" placeholder="Your Name" value="" type="text">
-                            </div>#}
-
-                            <div class="form-field">
-                                <input name="cEmail" id="cEmail" class="full-width" placeholder="Your Email" value="" type="text">
-                            </div>
-
-                         {#   <div class="form-field">
-                                <input name="cWebsite" id="cWebsite" class="full-width" placeholder="Website" value="" type="text">
-                            </div>
-#}
-                            <div class="message form-field">
-                                <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
-                            </div>
-
-                            <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
-
-                        </fieldset>
-                    </form> <!-- end form -->
-
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="{{ asset("front3/") }}images/img_1.jpg" alt="Image placeholder" class="mr-4">
+                                <div class="text">
+                                    <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                    <div class="post-meta">
+                                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="{{ asset("front3/") }}images/img_1.jpg" alt="Image placeholder" class="mr-4">
+                                <div class="text">
+                                    <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                    <div class="post-meta">
+                                        <span class="mr-2">March 15, 2018 </span> &bullet;
+                                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- END respond-->
+            </div>
+            <!-- END sidebar-box -->
 
-            </div> <!-- end comment-respond -->
+            <div class="sidebar-box">
+                <h3 class="heading">Categories</h3>
+                <ul class="categories">
+                    {% for infos in infos %}
 
-        </div> <!-- end comments-wrap -->
-    </main>
+                        <li><a href="{{ path('afficherPost',{'id': infos.id})}}">{{infos.titre}} <span>(12)</span></a></li>
 
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- END sidebar-box -->
+
+            <div class="sidebar-box">
+                <h3 class="heading">Tags</h3>
+                <ul class="tags">
+                    {% for infos in infos %}
+
+                        <li><a href="{{ path('afficherPost',{'id': infos.id})}}">{{infos.titre}}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <!-- END sidebar -->
+
+    </div>
 {% endblock %}

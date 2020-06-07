@@ -1,166 +1,221 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
+    <title>Colorlib Balita &mdash; Minimal Blog Template</title>
     <meta charset="utf-8">
-    <title>Typerite</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700" rel="stylesheet">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="{{ asset("front2/") }}css/base.css">
-    <link rel="stylesheet" href="{{ asset("front2/") }}css/vendor.css">
-    <link rel="stylesheet" href="{{ asset("front2/") }}css/main.css">
+    <link rel="stylesheet" href="{{ asset("front3/") }}css/bootstrap.css">
+    <link rel="stylesheet" href="{{ asset("front3/") }}css/animate.css">
+    <link rel="stylesheet" href="{{ asset("front3/") }}css/owl.carousel.min.css">
 
-    <!-- script
-    ================================================== -->
-    <script src="{{ asset("front2/") }}js/modernizr.js"></script>
+    <link rel="stylesheet" href="{{ asset("front3/") }}fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="{{ asset("front3/") }}fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset("front3/") }}fonts/flaticon/font/flaticon.css">
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset("front2/") }}apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset("front2/") }}favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset("front2/") }}favicon-16x16.png">
-    <link rel="manifest" href="{{ asset("front2/") }}site.webmanifest">
-
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="{{ asset("front3/") }}css/style.css">
 </head>
-
 <body>
 
-<!-- preloader
-================================================== -->
-<div id="preloader">
-    <div id="loader" class="dots-fade">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>
 
-<div id="top" class="s-wrap site-wrapper">
 
-    <!-- site header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header__top">
-            <div class="header__logo">
-                <a class="site-logo" href="index.html">
-                    <img src="{{ asset("front2/") }}images/logo.svg" alt="Homepage">
-                </a>
+<header role="banner">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-9 social">
+                    <a href="#"><span class="fa fa-twitter"></span></a>
+                    <a href="#"><span class="fa fa-facebook"></span></a>
+                    <a href="#"><span class="fa fa-instagram"></span></a>
+                    <a href="#"><span class="fa fa-youtube-play"></span></a>
+                    <a href="#"><span class="fa fa-vimeo"></span></a>
+                    <a href="#"><span class="fa fa-snapchat"></span></a>
+                </div>
+                <div class="col-3 search-top">
+                    <!-- <a href="#"><span class="fa fa-search"></span></a> -->
+                    <form action="#" class="search-top-form">
+                        <span class="icon fa fa-search"></span>
+                        <input type="text" id="s" placeholder="Type keyword to search...">
+                    </form>
+                </div>
             </div>
+        </div>
+    </div>
 
-            <div class="header__search">
+    <div class="container logo-wrap">
+        <div class="row pt-5">
+            <div class="col-12 text-center">
+                <a class="absolute-toggle d-block d-md-none" data-toggle="collapse" href="#navbarMenu" role="button" aria-expanded="false" aria-controls="navbarMenu"><span class="burger-lines"></span></a>
+                <h1 class="site-logo"><a href="index.html">Balita</a></h1>
+            </div>
+        </div>
+    </div>
 
-                <form role="search" method="get" class="header__search-form" action="#">
-                    <label>
-                        <span class="hide-content">Search for:</span>
-                        <input type="search" class="header__search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
-                    </label>
-                    <input type="submit" class="header__search-submit" value="Search">
-                </form>
-
-                <a href="#0" title="Close Search" class="header__search-close">Close</a>
-
-            </div>  <!-- end header__search -->
-
-            <!-- toggles -->
-            <a href="#0" class="header__search-trigger"></a>
-            <a href="#0" class="header__menu-toggle"><span>Menu</span></a>
-
-        </div> <!-- end header__top -->
-
-        <nav class="header__nav-wrap">
-
-            <ul class="header__nav">
-                <li class="current"><a href="index.html" title="">Home</a></li>
-                <li class="has-children">
-                    <a href="#0" title="">Categories</a>
-                    <ul class="sub-menu">
-                       {% block cat %}
-                        {% endblock %}
-                    </ul>
-                </li>
-                <li class="has-children">
-                    <a href="#0" title="">Blog Posts</a>
-                    <ul class="sub-menu">
-                        <li><a href="single-video.html">Video Post</a></li>
-                        <li><a href="single-audio.html">Audio Post</a></li>
-                        <li><a href="single-gallery.html">Gallery Post</a></li>
-                        <li><a href="single-standard.html">Standard Post</a></li>
-                    </ul>
-                </li>
-                <li><a href="styles.html" title="">Styles</a></li>
-                <li><a href="page-about.html" title="">About</a></li>
-                <li><a href="page-contact.html" title="">Contact</a></li>
-            </ul> <!-- end header__nav -->
-
-            <ul class="header__social">
-                <li class="ss-facebook">
-                    <a href="https://facebook.com/">
-                        <span class="screen-reader-text">Facebook</span>
-                    </a>
-                </li>
-                <li class="ss-twitter">
-                    <a href="#0">
-                        <span class="screen-reader-text">Twitter</span>
-                    </a>
-                </li>
-                <li class="ss-dribbble">
-                    <a href="#0">
-                        <span class="screen-reader-text">Dribbble</span>
-                    </a>
-                </li>
-                <li class="ss-pinterest">
-                    <a href="#0">
-                        <span class="screen-reader-text">Behance</span>
-                    </a>
-                </li>
-            </ul>
-
-        </nav> <!-- end header__nav-wrap -->
+    <nav class="navbar navbar-expand-md  navbar-light bg-light">
+        <div class="container">
 
 
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{path("front")}}">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="category.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown04">
+                           {% block cat %}
+                            {% endblock %}
+                        </div>
 
-    </header> <!-- end s-header -->
-
-    <div class="s-content">
-        <header class="listing-header">
-            <h1 class="h2">Categorie : {% block titre %}
-            {% endblock %}
-            </h1>
-        </header>
-        <div class="masonry-wrap">
-
-            <div class="masonry">
-                <div class="grid-sizer"></div>
-              {% block body %}
-{% endblock %}
-            </div> <!-- end masonry -->
-
-        </div> <!-- end masonry-wrap -->
+                    </li>
 
 
-    </div> <!-- end s-content -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Se connecter</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- END header -->
+
+<section class="site-section pt-5">
+    <div class="container">
+      {% block body1 %}
+        {% endblock %}
+    </div>
 
 
-    <!-- footer
-    ================================================== -->
+</section>
+<!-- END section -->
 
-</div> <!-- end s-wrap -->
+<section class="site-section py-sm">
+    <div class="container">
+   {% block body2 %}
+        {% endblock %}
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <h3>Paragraph</h3>
+                <p>
+                    <img src="{{ asset("front3/") }}images/img_1.jpg" alt="Image placeholder" class="img-fluid">
+                </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusantium optio unde perferendis eum illum voluptatibus dolore tempora, consequatur minus asperiores temporibus reprehenderit.</p>
+            </div>
+            <div class="col-md-6 ml-auto">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h3>Latest Post</h3>
+                        <div class="post-entry-sidebar">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src="{{ asset("front3/") }}images/img_6.jpg" alt="Image placeholder" class="mr-4">
+                                        <div class="text">
+                                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                            <div class="post-meta">
+                                                <span class="mr-2">March 15, 2018 </span> &bullet;
+                                                <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="{{ asset("front3/") }}images/img_3.jpg" alt="Image placeholder" class="mr-4">
+                                        <div class="text">
+                                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                            <div class="post-meta">
+                                                <span class="mr-2">March 15, 2018 </span> &bullet;
+                                                <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="{{ asset("front3/") }}images/img_4.jpg" alt="Image placeholder" class="mr-4">
+                                        <div class="text">
+                                            <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
+                                            <div class="post-meta">
+                                                <span class="mr-2">March 15, 2018 </span> &bullet;
+                                                <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-4">
+
+                        <div class="mb-5">
+                            <h3>Quick Links</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Travel</a></li>
+                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Categories</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="mb-5">
+                            <h3>Social</h3>
+                            <ul class="list-unstyled footer-social">
+                                <li><a href="#"><span class="fa fa-twitter"></span> Twitter</a></li>
+                                <li><a href="#"><span class="fa fa-facebook"></span> Facebook</a></li>
+                                <li><a href="#"><span class="fa fa-instagram"></span> Instagram</a></li>
+                                <li><a href="#"><span class="fa fa-vimeo"></span> Vimeo</a></li>
+                                <li><a href="#"><span class="fa fa-youtube-play"></span> Youtube</a></li>
+                                <li><a href="#"><span class="fa fa-snapchat"></span> Snapshot</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END footer -->
+
+<!-- loader -->
+<div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+
+<script src="{{ asset("front3/") }}js/jquery-3.2.1.min.js"></script>
+<script src="{{ asset("front3/") }}js/jquery-migrate-3.0.0.js"></script>
+<script src="{{ asset("front3/") }}js/popper.min.js"></script>
+<script src="{{ asset("front3/") }}js/bootstrap.min.js"></script>
+<script src="{{ asset("front3/") }}js/owl.carousel.min.js"></script>
+<script src="{{ asset("front3/") }}js/jquery.waypoints.min.js"></script>
+<script src="{{ asset("front3/") }}js/jquery.stellar.min.js"></script>
 
 
-<!-- Java Script
-================================================== -->
-<script src="{{ asset("front2/") }}js/jquery-3.2.1.min.js"></script>
-<script src="{{ asset("front2/") }}js/plugins.js"></script>
-<script src="{{ asset("front2/") }}js/main.js"></script>
-
+<script src="{{ asset("front3/") }}js/main.js"></script>
 </body>
+</html>
